@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aroona's Fitness Center</title>
+  <link rel="stylesheet" media="screen and (max-width:1213px)" href="phone.css">
+  <!-- <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="styling.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Oleo+Script+Swash+Caps&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+  <nav id="navbar">
+    <div id="logo">
+      <img src="logo.png.jpg" alt="fitness Center">
+    </div>
+    <ul>
+      <li class="item"><a href="#home">Home</a></li>
+      <li class="item"><a href="#service-container">Services</a></li>
+      <li class="item"><a href="#portfolio-container">Portfolio</a></li>
+      <li class="item"><a href="#follow-section">Follow Us</a></li>
+    </ul>
+  </nav>
+  <sectiom id="home">
+    <h1 class="h-primary center">Welcome To Fitness Center</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aliquam facilis amet? Fuga rerum commodi
+      alias
+      maxime expedita quidem nesciunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, numquam.</p>
+    <div class="click-btn">
+      <button class="btn" onclick="openForm()">Enrol Now</button>
+    </div>
+    <!-- html for form -->
+    <div class="loginForm">
+      <div class="formpopup" id="form">
+        <form action="" class="form-container">
+          <h2>Welcome To The Fittness Center</h2>
+          <label for="name">
+            <strong>Name</strong>
+          </label><br>
+          <input type="text" id="name" placeholder="Enter Your name" name="name"><br>
+          <label for="Age">
+            <strong>Select The Category</strong><br>
+            <select name="Age" id="age">
+              <option value="youth">Youth: 15-25</option>
+              <option value="mid">Middle Age: 26-38</option>
+              <option value="eld">Elders:39-Above</option>
+            </select>
+          </label><br>
+          <label for="email">
+            <strong>E-mail</strong><br>
+          </label>
+          <input type="email" id="email" placeholder="Enter Your E-mail" name="email"><br>
+          <label for="psw">
+            <strong>Password</strong><br>
+          </label>
+          <input type="password" id="psw" placeholder="Enter Your password" name="psw"><br>
+          <button type="submit" class="Btn">Submit</button><br>
+          <button type="button" class="Btn cancel" onclick="closeform()">Close</button><br>
+        </form>
+      </div>
+    </div>
+  </sectiom>
+  <section id="service-container">
+    <h1 class="h-primary center"> Services </h1>
+    <p>There are different Services for different Age Groups</p>
+    <div id="service">
+      <div class="box">
+        <img src="images/img2.png" alt="For Olderones">
+        <h1 class="h-secondary center">Seniors</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laboriosam id necessitatibus debitis quidem
+          doloremque. Repellendus excepturi Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, odio dicta
+          placeat blanditiis assumenda inventore sint modi et pariatur molestias id deserunt ducimus amet facere?
+          Consequuntur, possimus. Repudiandae dolores inventore dolorum. Illo, recusandae consequuntur. quam at in
+          ipsum, quod id magni fuga enim dolorem voluptatibus fugit
+          molestiae.</p>
+      </div>
+      <div class="box">
+        <img src="images/box2.png" alt="For Olderones">
+        <h1 class="h-secondary center">Adults</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laboriosam id necessitatibus debitis quidem
+          doloremque. Repellendus Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repellat atque,
+          accusamus veniam quisquam soluta rem fuga voluptatibus consequuntur nesciunt temporibus impedit, non veritatis
+          quae mollitia, quo vel perferendis magni molestias provident expedita vitae. excepturi quam at in ipsum, quod
+          id magni fuga enim dolorem voluptatibus fugit
+          molestiae.</p>
+      </div>
+      <div class="box">
+        <img src="images/box3.png" alt="For Olderones">
+        <h1 class="h-secondary center">Youth</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laboriosam id necessitatibus debitis quidem
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolores accusamus aperiam voluptate magni
+          expedita, quaerat inventore quasi at optio excepturi, beatae dicta. Quae iusto eaque quibusdam nam corrupti
+          sed consectetur libero quia quam?
+          doloremque. Repellendus excepturi quam at in ipsum, quod id magni fuga enim dolorem voluptatibus fugit
+          molestiae.</p>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio-container">
+    <h1 class="h-primary center">Portfolio</h1>
+    <p>Featured Space</p>
+    <div id="porfolio">
+      <div class="portfolio-item">
+        <img src="images/portfolioItem.png" alt="">
+      </div>
+      <div class="portfolio-item">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPn72Hp0MX1hRbXDroGaaYCLHwAIVD5yI3j1VtBo4FR370yO5lvn9aqMoITnP24Z_3VrY&usqp=CAU"
+          alt="">
+      </div>
+      <div class="portfolio-item" id="img-ht">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmaHUUUpKw-F3JfLuSCETDZj4NteKX7d-0aeuJckiAwDarQun3ocLUdalPdBtgEosd9yM&usqp=CAU"
+          alt="">
+      </div>
+      <div class="portfolio-item" id="img-height">
+        <img
+          src="https://img.peerspace.com/image/upload/c_crop,g_custom/g_auto,c_fill,q_auto:eco,f_auto,fl_progressive:steep,w_1200,h_495/xprnrxm2czt3ajehkbtj"
+          alt="">
+      </div>
+    </div>
+  </section>
+  <section id="follow-section">
+    <h1 class="h-primary center"> Follow Us </h1>
+    <div id="follows">
+      <div class="follow-items">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+          alt="Follow us on social sites">
+      </div>
+      <div class="follow-items">
+        <img src="images/logo2.png" alt="Follow us on social sites">
+      </div>
+      <div class="follow-items">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+          alt="Follow us on social sites">
+      </div>
+      <div class="follow-items">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png"
+          alt="Follow us on social sites">
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="center">
+      copyright &copy;www.AroonaFitnessCenter.com. all rigths reserved!
+    </div>
+  </footer>
+  </div>
+  <!-- javascript part -->
+  <script>
+    function openForm() {
+      document.getElementById('form').style.display = "block";
+    }
+    function closeform() {
+      document.getElementById('form').style.display = "none";
+    }
+  </script>
+</body>
+
+</html>

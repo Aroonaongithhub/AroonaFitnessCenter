@@ -1,0 +1,87 @@
+/* navigation bar */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* home section */
+#home {
+    height: 750px;
+    padding: 3px 28px;
+}
+
+#home::before {
+    height: 480px;
+}
+
+#home p {
+    font-size: 13px;
+}
+
+.formpopup {
+    background-color: rgb(44, 39, 66);
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+}
+
+.formpopup .form-container input[type=text],
+.formpopup .form-container input[type=email],
+.formpopup .form-container input[type=password],
+.formpopup .form-container select {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    font-weight: bolder;
+}
+
+.formpopup .form-container strong {
+
+    color: rgb(211, 194, 194);
+
+
+}
+
+/* service section */
+#service-container #service .box {
+    margin: 4px 0px;
+    padding: 14px;
+}
+
+#service-container {
+    margin-top: 6rem;
+}
+
+#service-container #service .box img {
+    width: 150px;
+}
+
+/* follow us section */
+#follows {
+    flex-wrap: wrap;
+}
+
+/* portfolio section */
+#porfolio {
+    flex-wrap: wrap;
+}
+
+.portfolio-item img {
+    width: 350px;
+}
+
+/* Footer */
+
+/* utility classes section */
+.h-primary {
+    font-size: 27px;
+}
+
+.btn {
+    font-size: 13px;
+}

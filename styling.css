@@ -1,0 +1,284 @@
+                            /* css reset */
+                            * {
+                                margin: 0px;
+                                padding: 0px;
+                                box-sizing: border-box;
+                            }
+
+                            html {
+                                scroll-behavior: smooth;
+                            }
+                            body,html{
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .container{
+                                width: 100%;
+                            }
+                            /* navigation bar css */
+                            #navbar {
+                                display: flex;
+                                align-items: center;
+                                position: sticky;
+                                top: 0px;
+                            }
+
+
+                            #navbar::before {
+                                background-color: black;
+                                content: "";
+                                position: absolute;
+                                z-index: -1;
+                                top: 0px;
+                                left: 0px;
+                                width: 100%;
+                                height: 100%;
+                                opacity: 0.2;
+                                border-radius: 2em;
+                            }
+
+                            #navbar ul {
+                                list-style: none;
+                                display: flex;
+
+                            }
+
+                            #navbar ul li a {
+                                text-decoration: none;
+                                padding: 3px 22px;
+                                border-radius: 13px;
+                                /* font-size: 26px; */
+                                font-weight: bold;
+                                color: white;
+                                display: block;
+                            }
+
+                            #navbar ul li a:hover {
+                                color: rgb(48, 69, 87);
+                                background-color: white;
+                                font-size: 20px;
+                            }
+
+                            /* logo css */
+                            #logo {
+                                margin: 8px 34px;
+                            }
+
+                            #logo img {
+                                width: 86px;
+                                margin: 3px 6px;
+                            }
+
+                            /* home page css */
+                            #home {
+                                display: flex;
+                                height: 500px;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+
+                            }
+
+                            #home::before {
+                                position: absolute;
+                                content: "";
+                                background: url('images/img3.png') no-repeat center center/cover;
+                                height: 100vh;
+                                width: 100%;
+                                z-index: -1;
+                                top: 0px;
+                                left: 0px;
+                                opacity: 0.88;
+                            }
+
+                            #home h1 {
+                                color: white;
+                                font-family: 'Cormorant SC', serif;
+                                font-size: 4rem;
+                                font-weight: bold;
+                            }
+
+                            #home p {
+                                color: white;
+                                font-family: 'Cormorant SC', serif;
+
+                            }
+
+                            .btn {
+                                padding: 5px;
+                                width: 9rem;
+                                font-weight: bold;
+                                background-color: rgb(25, 139, 101);
+                                color: white;
+                                border: 3px solid black;
+                                border-radius: 10px;
+                                font-size: 20px;
+                            }
+
+                            .btn:hover {
+                                color: black;
+                                background-color: cadetblue;
+                                font-size: 23px;
+                                border: 3px solid white;
+                            }
+
+                            /* form page CSS */
+                            .formpopup {
+                                display: none;
+                                border: 4px solid black;
+                                padding: 10px;
+                            }
+                            .form-container input[type=text],
+                            .form-container input[type=email],
+                            .form-container input[type=password],
+                            .form-container select{
+                                padding: 6px;
+                                width: 250px;
+                                background-color: rgb(58, 54, 54);
+                                color: white;
+                                border: 2px solid black;
+                            }
+                            .form-container .Btn{
+                                padding: 6px;
+                                width: 250px;
+                                background-color: blue;
+                                margin-top: 5px;
+                                cursor: pointer;
+                                font-weight: bolder;
+                                font-size: large;
+                            }
+                            .form-container .cancel{
+                                padding: 5px;
+                                width: 250px;
+                                background-color: rgb(160, 160, 177);
+                                margin-top: 5px;
+                                cursor: pointer;
+                            }
+                            .form-container .Btn:hover{
+                                opacity: 0.3;
+                                font-weight: bolder;
+                                color: rgb(248, 242, 242);
+                                border: 4px solid white;
+                            }
+                            .form-container strong{
+                                font-weight: bolder;
+                                color: rgb(39, 31, 31);
+                                font-size: larger;
+                                
+                            }
+                            /* services page css */
+                            #service-container {
+                                margin-top: 1rem;
+                            }
+                           
+                            #service {
+
+                                display: flex;
+                                flex-direction: column;
+                            }
+
+                            #service .box {
+                                margin: 34px;
+                                border: 3px solid black;
+                                padding: 30px;
+                                background-color: antiquewhite;
+                                border-radius: 16px;
+                            }
+
+                            #service .box img {
+                                height: 160px;
+                                width: 250px;
+                                margin: auto;
+                                display: block;
+                            }
+
+                            #service .box p {
+                                font-family: 'Cormorant SC', serif;
+                                font-weight: 200;
+                            }
+ 
+
+                            #service-container>p {
+                                font-family: 'Cormorant SC', serif;
+                                font-size: 26px;
+                                font-weight: bold;
+                                text-align: center;
+                                border: 4px solid black;
+                                color: blueviolet;
+                                background-color: aliceblue;
+                            }
+
+
+                            /* portfolio page css */
+                            #porfolio {
+                                display: flex;
+                                justify-content: space-evenly;
+                            }
+
+                            .portfolio-item img {
+                                width: 250px;
+                                height: 250px;
+                                margin: 5px 10px;
+                            }
+
+                            #portfolio-container>p {
+                                font-family: 'Cormorant SC', serif;
+                                font-size: 26px;
+                                font-weight: bold;
+                                text-align: center;
+                                border: 4px solid black;
+                                color: blueviolet;
+                                background-color: aliceblue;
+                                margin-top: 0%;
+                            }
+
+                           
+
+                            /* follow-section page css */
+                            #follow-section {
+                                position: relative;
+                            }
+
+                            #follows {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+
+                            .follow-items {
+                                padding: 34px;
+                            }
+
+                            #follows img {
+                                height: 90px;
+                                align-items: center;
+                                margin-top: -34px;
+                                border-radius: 9px;
+                            }
+
+                            /* utility classes */
+                            .h-primary {
+                                font-family: 'Cormorant SC', serif;
+                                font-size: 3.8rem;
+                                padding: 12px;
+                                margin-top: 5px;
+                                color: rgb(94, 75, 75);
+                            }
+
+                            .h-secondary {
+                                font-family: 'Cormorant SC', serif;
+                                font-size: 2.4rem;
+                                padding: 12px;
+                            }
+
+                            /* footer page css */
+                            footer {
+                                background-color: black;
+                                color: white;
+                                padding: 15px 20px;
+                            }
+
+                            .center {
+                                text-align: center;
+                            }
